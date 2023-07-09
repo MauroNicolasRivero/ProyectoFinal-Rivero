@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css');
+
+html {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 8px;
+}
+
+p,
+select,
+input,
+span {
+    font-size: large;
+}
+
+table {
+    width: 90% !important;
+    margin-left: 5%;
+}
+
+.emoji-image {
+    font-size: 50px;
+}
+
+.error {
+    color: whitesmoke;
+    background-color: darkred;
+    font-size: 15px;
+    text-align: center;
+}
+
+thead {
+    font-weight: 700;
+    font-size: larger;
+}
+
+tbody tr:hover {
+    background: rgba(150, 150, 150, 0.679);
+}
+
+.button-big-emoji {
+    font-size: x-large;
+}
+
+.button-eliminar {
+    font-size: x-large;
+}
+
+.mensajeEli {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 46px;
+    width: 100%;
+    background-color: rgb(222, 212, 238);
+    color: whitesmoke;
+    border-radius: 6px;
+}
+
+.mensajeCompra {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    height: 46px;
+    width: 100%;
+    background-color: rgb(108, 151, 231);
+    color: whitesmoke;
+    border-radius: 6px;
+}
+
+.logo-carrito {
+    width: 60px;
+    height: 40px;
+    float: right;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(188, 143, 143, 0.3);
+    background-color: rgba(237, 228, 239, 0.37);
+    box-shadow: 2px 2px 2px rgba(188, 143, 143, 0.3);
+    cursor: pointer;
+}
